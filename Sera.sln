@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sera.Model", "Sera.Model\Sera.Model.fsproj", "{BCF61A35-BA57-4F14-8A12-E96776CBE9C0}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sera.Web(1)", "Sera.Web\", "{8604C85C-451B-4680-80F2-25ED35D108A1}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sera.Web", "Sera.Web\", "{8604C85C-451B-4680-80F2-25ED35D108A1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_1584"
@@ -27,6 +27,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sera.Web(1)", "Sera.Web\", 
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sera.Core", "Sera.Core\Sera.Core.csproj", "{63CF49BC-11B1-4127-A99F-AE8C80E6FD83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sera.DataApi", "Sera.DataApi\Sera.DataApi.csproj", "{D59A21B6-BAF3-453B-B8CF-2C27CEDF3177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{8604C85C-451B-4680-80F2-25ED35D108A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8604C85C-451B-4680-80F2-25ED35D108A1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{8604C85C-451B-4680-80F2-25ED35D108A1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{63CF49BC-11B1-4127-A99F-AE8C80E6FD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CF49BC-11B1-4127-A99F-AE8C80E6FD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CF49BC-11B1-4127-A99F-AE8C80E6FD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CF49BC-11B1-4127-A99F-AE8C80E6FD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59A21B6-BAF3-453B-B8CF-2C27CEDF3177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59A21B6-BAF3-453B-B8CF-2C27CEDF3177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59A21B6-BAF3-453B-B8CF-2C27CEDF3177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59A21B6-BAF3-453B-B8CF-2C27CEDF3177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
