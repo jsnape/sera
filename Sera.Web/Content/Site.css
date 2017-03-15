@@ -2,6 +2,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Segoe UI';
 }
 
 /* Wrapping element */
@@ -17,11 +18,58 @@ select,
 textarea {
     max-width: 280px;
 }
+.graphline{
+    width:1pc;
+}
+.pod
+{
+    display: block;
+    /*background-color:#6DE1FF;*/
+    background: linear-gradient(#6DE1FF, #FFFFFF);
+    padding: 10px;
+    width:90%;
+    min-height:130px;
+    border-radius: 10px;
+    vertical-align:central;
+    margin-bottom:20px;
+    text-align:center;
+}
+/*
+97A4F9 - blue
+ADFF84 - Green
+*/
 
+.gradient1
+{
+    background: linear-gradient(to right, #97A4F9, #9AAEEC, #A1CBC7, #ACFE85, #A6E5A6, #9FC9CA, #AAEE99, #9EC0D4);
+    width:100%;
+    height:100px;
+    margin-bottom: 20px;
+    border-radius:5px;
+}
+.TransactionRow
+{
+    margin-bottom:20px;
+}
+.DayHeading{
+    color:#cccccc;
+    text-align:center;
+}
+.Time, .Transaction, .Price{
+    color:black;
+    font-size:2em;
+}
+.Description{
+    color:#dddddd;
+}
+.Heading{
+    font-size:2.5em;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-top: 20px;
+        text-align:center;
     }
     .body-content {
         padding: 0;
